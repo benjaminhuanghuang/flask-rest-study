@@ -2,11 +2,16 @@ Designing a RESTful API with Python and Flask
 https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
 
 - Client-Server: 
-- Stateless: server cannot store information provided by the client in one request and use it in another request
+
+- Stateless: server cannot store information provided by the client in one request and use it in another request.
+             Can not use session as regular web application
 - Cacheable
+
 - Layered System: 
-- Uniform Interface
-- Code on demand
+
+- Uniform Interface:
+
+- Code on demand:
 
 
 

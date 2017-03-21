@@ -28,5 +28,6 @@ How to
     $ curl -i http://localhost:5000/todo/api/v1.0/tasks/2
     $ curl -i -H "Content-Type: application/json" -X POST -d '{"title":"Read a book"}' http://localhost:5000/todo/api/v1.0/tasks
     $ curl -i -H "Content-Type: application/json" -X PUT -d '{"done":true}' http://localhost:5000/todo/api/v1.0/tasks/2
-
+    
+    $ curl -u user:password -i http://localhost:5000/todo/api/v1.0/tasks
 
